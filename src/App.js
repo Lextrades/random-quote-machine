@@ -22,7 +22,7 @@ const App = () =>  {
   useEffect(() => {
     textRef.current.style.color = 
       colors[Math.floor(Math.random() * colors.length)];
-  }, [quotes])
+  }, [quotes]);
 
   return(
     <div className="App" id="quote-box">
