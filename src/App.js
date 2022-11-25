@@ -44,8 +44,18 @@ const App = () =>  {
           </a>
         </div>
         <br />
-        <h2 className="h2">NextLevel - Quote Machine</h2>
+        {/*<!-- Credit Blocs -->*/}
+        <a className="blocs-badge btn" href="https://www.nextlevel.trading" 
+              target="_blank"
+              rel="noopener noreferrer">
+          <img src="https://www.nextlevel.trading/images/Favicon_X/favicon-16x16.png" 
+              className="img-fluid" width="16" height="16" alt="Blocs Logo" />
+            NextLevel
+          </a>
+      {/*<!-- Credit Blocs End -->*/}
+        <h2 className="h2">Quote Machine</h2>
       </div>
+      
     </div>
   );
 };
